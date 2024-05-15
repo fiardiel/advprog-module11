@@ -21,7 +21,7 @@
 2. Try deploying the Spring Petclinic REST using Recreate deployment strategy and document your attempt.
 **Answer:**
     First, in the `deployment.yaml` file, I changed the strategy to type: Recreate. I then deployed the Spring Petclinic REST using Recreate deployment strategy by running the following command:
-    `kubectl apply -f deployment.yaml`. The deployment was successful and the pods were created. However, the application was unavailable during the update. The application was only available after the new pods were created.
+    `kubectl apply -f deployment-recreate.yaml`. The deployment was successful and the pods were created. However, the application was unavailable during the update. The application was only available after the new pods were created.
 
 3. Prepare different manifest files for executing Recreate deployment strategy.
 **Answer:**
